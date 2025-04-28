@@ -11,7 +11,7 @@ An extremely common method which finds the correct location for a single item at
   |:---:|
   |<div style="font-size:smaller">Insertion Sort Demo Animation [Swfung8](https://commons.wikimedia.org/wiki/File:Insertion-sort-example-300px.gif) / [CC BY-SA](https://creativecommons.org/licenses/by-sa/3.0)</div>|
 
-- Here's [the slideshow used in class](https://docs.google.com/presentation/d/1D54JqwOoEqW-VT7kqKcXhxgVKTY__LxsI-aUGJFtxvA/edit?usp=sharing)
+- Here's [the slideshow used in class](https://docs.google.com/presentation/d/e/2PACX-1vRRSll8IdBJsUtZPvD2Sg9eX41BaBcKQaIKPQfO6nFf5A91VYYRghKS2lGAzI_ut6Una7QJzy1AyeDk/pub?start=false&loop=false&delayms=3000)
 - YouTube [video of visualization](https://www.youtube.com/watch?v=8oJS1BMKE64)
 - [Interactive demonstration](https://www.cs.usfca.edu/~galles/visualization/ComparisonSort.html)
 - Another excellent [visual demonstration](https://math.hws.edu/eck/js/sorting/xSortLab.html)
@@ -34,7 +34,7 @@ Starting with the second item in the list:
 ### Code:
 
 1.  Read the `script.js` and `library.js` files, they are well-documented.
-2.  Complete the function `insert_sort()`. Your code will go between the comment blocks that you will see. The function will sort _a copy_ of the given `unsortedArray` called `data` into _ascending_ order (lowest to highest) using the [Insertion Sort algorithm](https://docs.google.com/presentation/d/1D54JqwOoEqW-VT7kqKcXhxgVKTY__LxsI-aUGJFtxvA/edit?usp=sharing) described in class. 
+2.  Complete the function `insert_sort()`. Your code will go between the comment blocks that you will see. The function will sort _a copy_ of the given `unsortedArray` called `data` into _ascending_ order (lowest to highest) using the [Insertion Sort algorithm](https://docs.google.com/presentation/d/e/2PACX-1vRRSll8IdBJsUtZPvD2Sg9eX41BaBcKQaIKPQfO6nFf5A91VYYRghKS2lGAzI_ut6Una7QJzy1AyeDk/pub?start=false&loop=false&delayms=3000) described in class. 
     - It will _return_ the sorted array.
     - If `debug` is `true`, the algorithm will print the array _after each completed pass_ for tracing and testing purposes.
 
