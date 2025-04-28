@@ -1,8 +1,8 @@
-# 3.1 Sorting an Array – Insertion Sort
+# 18 - Insertion Sort
 
 ###### ICS4U - Mr. Brash 🐿️
 
-An extremely common method which finds the correct location for a single item at a time. Only the positions below the current item’s position (left) are considered.
+An extremely common method which finds the correct location for a single item at a time. Only the positions _below_ the current item’s position (left) are considered.
 
   |![Insertion Sort Animation](assets/Insertion-sort-example-300px.gif)|
   |:---:|
