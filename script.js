@@ -65,7 +65,7 @@ function median(data) {
 // Test a large array of random integers with no duplicates
 // insert_sort(arrayOfInts(50000, -100000, 100000, true, false))
 
-insert_sort(arrayOfInts(100000, -20000, 20000))
-insert_sort(arrayOfInts(100000, -20000, 20000))
-insert_sort(arrayOfInts(100000, -20000, 20000))
-insert_sort(arrayOfInts(100000, -20000, 20000))
+// insert_sort(arrayOfInts(100000, -20000, 20000))
+// insert_sort(arrayOfInts(100000, -20000, 20000))
+// insert_sort(arrayOfInts(100000, -20000, 20000))
+// insert_sort(arrayOfInts(100000, -20000, 20000))
