@@ -4,6 +4,19 @@
 
 An extremely common method which finds the correct location for a single item at a time. Only the positions _below_ the current item’s position (left) are considered.
 
+#### NOTES TO SELF:  
+- mention array.toString() and the debugging flag / printout. 
+- Change the questions to Google Doc and post in Google Classroom.
+- Students must submit repo AND copy code to Google Doc (code block)
+  - Test the code block thing.
+- Setup Repo in GHC
+- Setup assignment in GC
+- Setup brash.ca site
+- Remove this list
+
+---
+
+
   |![Insertion Sort Animation](assets/Insertion-sort-example-300px.gif)|
   |:---:|
   |<div style="font-size:smaller">Insertion Sort Demo Animation [Swfung8](https://commons.wikimedia.org/wiki/File:Insertion-sort-example-300px.gif) / [CC BY-SA](https://creativecommons.org/licenses/by-sa/3.0)</div>|

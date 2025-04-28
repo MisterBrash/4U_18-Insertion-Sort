@@ -11,7 +11,6 @@
 
 "use strict";
 
-
 /**
  * Return a random integer where min and max are numbers, 
  * 'inclusive' is a boolean to determine if min and max are 
@@ -21,7 +20,7 @@
  * @param {Boolean} inclusive Whether to include max and min in the random generation.
  * @returns {Number} A random whole integer from max to min. 
  **/
-export default function randInt(min, max, inclusive = true) {
+export function randInt(min, max, inclusive = true) {
   if (inclusive)
     return Math.floor(Math.random() * (max - min + 1) ) + min;  // included
   else

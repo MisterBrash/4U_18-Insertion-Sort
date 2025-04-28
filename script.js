@@ -35,8 +35,7 @@ function insert_sort(unsortedArray, debug = false) {
 }
 
 /**
- * Return the median value from a given array. The array will need to be
- * sorted first.
+ * Return the median value from a given array.
  *
  * @param {Array} data The numeric data in which to find the median
  * @returns {Number} The median of the set of data (not rounded)
@@ -58,7 +57,7 @@ function log(str) {
 }
 
 
-// Test a small array with debug ON
+// Test a small array with debugging enabled
 insert_sort([6, 5, 3, 1, 8, 7, 2, 4], true)
 
 // Test a large array of random integers with duplicates
