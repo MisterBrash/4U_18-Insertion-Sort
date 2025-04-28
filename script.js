@@ -6,7 +6,7 @@
  *  Author:
  **/
 
-import { arrayOfInts, randInt, round } from "./library.js";
+import { arrayOfInts, randInt, arrayOfStrings, round } from "./library.js";
 import { performance } from "perf_hooks";
 
 /**
@@ -44,24 +44,11 @@ function median(data) {
 
 }
 
-
-/* /////////   Helper Function(s):   ////////// */
-
-/**
- * Log the given string to the debug div
- * @param {String} str The information to log to the debug div on the page
- * @returns undefined
- */
-function log(str) {
-  //document.getElementById("debug").innerHTML += "<br>" + str.toString();
-}
-
-
 // Test a small array with debugging enabled
 insert_sort([6, 5, 3, 1, 8, 7, 2, 4], true)
 
 // Test a large array of random integers with duplicates
-// insert_sort(arrayOfInts(50000, -10000, 10000, true, true))
+// insert_sort(arrayOfInts(50000, -10000, 10000))
 
 // Test a large array of random integers with no duplicates
 // insert_sort(arrayOfInts(50000, -100000, 100000, true, false))
