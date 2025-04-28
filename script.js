@@ -26,7 +26,19 @@ function insert_sort(unsortedArray, debug = false) {
 
   /*** Start of student code ***/
 
+  let target = 1;
+  while (target < data.length) {
+    let temp = data[target];
+    let i = target - 1;
+    while (data[i] > temp) {
+      data[i+1] = data[i]
+      i--;
+    }
+    data[i+1] = temp;
 
+    if (debug) console.log(data.toString());
+    target++;
+  }
 
   /*** End of student code ***/
 
