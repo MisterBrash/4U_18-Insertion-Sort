@@ -57,10 +57,15 @@ function median(data) {
 }
 
 // Test a small array with debugging enabled
-insert_sort([6, 5, 3, 1, 8, 7, 2, 4], true)
+//insert_sort([6, 5, 3, 1, 8, 7, 2, 4], true)
 
 // Test a large array of random integers with duplicates
 // insert_sort(arrayOfInts(50000, -10000, 10000))
 
 // Test a large array of random integers with no duplicates
 // insert_sort(arrayOfInts(50000, -100000, 100000, true, false))
+
+insert_sort(arrayOfInts(100000, -20000, 20000))
+insert_sort(arrayOfInts(100000, -20000, 20000))
+insert_sort(arrayOfInts(100000, -20000, 20000))
+insert_sort(arrayOfInts(100000, -20000, 20000))
